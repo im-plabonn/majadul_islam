@@ -1,0 +1,140 @@
+{
+  "best_model": "Logistic Regression",
+  "labels": [
+    "Needs Support",
+    "On Track",
+    "Advanced"
+  ],
+  "num_cols": [
+    "Hours_Studied",
+    "Attendance",
+    "Sleep_Hours",
+    "Previous_Scores",
+    "Tutoring_Sessions",
+    "Physical_Activity"
+  ],
+  "cat_cols": [
+    "Parental_Involvement",
+    "Access_to_Resources",
+    "Extracurricular_Activities",
+    "Motivation_Level",
+    "Internet_Access",
+    "Family_Income",
+    "Teacher_Quality",
+    "School_Type",
+    "Peer_Influence",
+    "Learning_Disabilities",
+    "Parental_Education_Level",
+    "Distance_from_Home",
+    "Gender"
+  ],
+  "num_ranges": {
+    "Hours_Studied": [
+      1.0,
+      44.0,
+      20.0
+    ],
+    "Attendance": [
+      60.0,
+      100.0,
+      80.0
+    ],
+    "Sleep_Hours": [
+      4.0,
+      10.0,
+      7.0
+    ],
+    "Previous_Scores": [
+      50.0,
+      100.0,
+      75.0
+    ],
+    "Tutoring_Sessions": [
+      0.0,
+      8.0,
+      1.0
+    ],
+    "Physical_Activity": [
+      0.0,
+      6.0,
+      3.0
+    ]
+  },
+  "cat_options": {
+    "Parental_Involvement": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Access_to_Resources": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Extracurricular_Activities": [
+      "No",
+      "Yes"
+    ],
+    "Motivation_Level": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Internet_Access": [
+      "No",
+      "Yes"
+    ],
+    "Family_Income": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Teacher_Quality": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "School_Type": [
+      "Private",
+      "Public"
+    ],
+    "Peer_Influence": [
+      "Negative",
+      "Neutral",
+      "Positive"
+    ],
+    "Learning_Disabilities": [
+      "No",
+      "Yes"
+    ],
+    "Parental_Education_Level": [
+      "College",
+      "High School",
+      "Postgraduate"
+    ],
+    "Distance_from_Home": [
+      "Far",
+      "Moderate",
+      "Near"
+    ],
+    "Gender": [
+      "Female",
+      "Male"
+    ]
+  },
+  "cat_default": {
+    "Parental_Involvement": "Medium",
+    "Access_to_Resources": "Medium",
+    "Extracurricular_Activities": "Yes",
+    "Motivation_Level": "Medium",
+    "Internet_Access": "Yes",
+    "Family_Income": "Low",
+    "Teacher_Quality": "Medium",
+    "School_Type": "Public",
+    "Peer_Influence": "Positive",
+    "Learning_Disabilities": "No",
+    "Parental_Education_Level": "High School",
+    "Distance_from_Home": "Near",
+    "Gender": "Male"
+  }
+}

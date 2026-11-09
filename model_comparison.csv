@@ -1,0 +1,5 @@
+Model,CV Accuracy,Test Accuracy,Precision (macro),Recall (macro),F1 (macro)
+Logistic Regression,0.9614,0.9697,0.97,0.9678,0.9687
+Gradient Boosting,0.8303,0.8389,0.8408,0.8312,0.8354
+Random Forest,0.8235,0.8238,0.8277,0.8069,0.815
+Decision Tree,0.7156,0.7231,0.7311,0.709,0.7172
